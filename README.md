@@ -9,7 +9,7 @@ Como parte del desafio técnico propuesto por DataRocking este microservicio pro
 - `Dockerfile`: Script para construir la imagen Docker.
 - `requirements.txt`: Archivo de requisitos para instalar los módulos de python.
 - `uploads/`: Carpeta para almacenar archivos.
-- `README.md`: Documentación básica.
+- `README.md`: Documentación.
 
 
 ## Requerimientos
@@ -44,7 +44,7 @@ Para interactuar con estos archivos se recomienda utilizar curl desde otra termi
    curl -X GET http://localhost:8080/files/<nombre_archivo>
    	o
    curl http://localhost:8080/files/<nombre_archivo>
-  ´´´
+  ```
 
 - Borrar un archivo:
 
