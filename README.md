@@ -23,6 +23,7 @@ Versiones utilizadas en este proyecto
    
    ```bash
    python3 deploy_script.py 8080
+   ```
 
 ## Intrucciones de uso
 
