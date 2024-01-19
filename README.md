@@ -33,14 +33,14 @@ Para interactuar con estos archivos se recomienda utilizar curl desde otra termi
 
 - Listar archivos:
 
-  ´´´bash
+  ```bash
    curl -X GET http://localhost:8080/files
    	o
    curl http://localhost:8080/files
-  ´´´
+  ```
 - Solicitar un archivo específico:
 
-  ´´´bash
+  ```bash
    curl -X GET http://localhost:8080/files/<nombre_archivo>
    	o
    curl http://localhost:8080/files/<nombre_archivo>
@@ -48,12 +48,12 @@ Para interactuar con estos archivos se recomienda utilizar curl desde otra termi
 
 - Borrar un archivo:
 
-  ´´´bash
+  ```bash
    curl -X DELETE http://localhost:8080/files/<nombre_archivo>
 
 - Subir un nuevo archivo:
 
-  ´´´bash
+  ```bash
    curl -X POST -F "file=@/home/user/<path_del_archivo>/<nombre_archivo>" http://localhost:8080/upload
 
 Estos a también puede verse refrescando el navegador en la ruta http://localhost:8080/files
